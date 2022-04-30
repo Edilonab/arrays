@@ -5,10 +5,10 @@
     ['ES'=>'Espírito Santo', 'MG'=>'Minas Gerais', 'RJ'=>'Rio de Janeiro', 'SP'=>'São Paulo']. 
     Depois de criado terceiro vetor, leia-o e imprima em cada linha a chave de cada posição e seu respectivo valor separados por "-".
     */
+
     $vetor = ['ES'=>'Espírito Santo', 'MG'=>'Minas Gerais', 'RJ'=>'Rio de Janeiro', 'SP'=>'São Paulo'];
 
-    foreach ($vetor as $chave => $valor) {
-        echo $valor. " - " .$chave. '<br>';
+    foreach ($vetor as $chave => $valor) {                // Foreach = é uma estrutura de repetição, auxilia nos arrays.
+        echo $chave. " - " .$valor. ' <br> ';             // echo = mostra codigo.         <br> = pular linha. 
     }
-
 ?>
